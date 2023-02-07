@@ -1,0 +1,156 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+/* Layout */
+.container {
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    /* debug */
+    background-color: lightgoldenrodyellow;
+    min-height: 40px;
+}
+
+/* Utilities */
+.flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.bg-gray {
+    background-color: lightgray;
+}
+
+/* HEADER */
+/* Header top */
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+
+    /* debug */
+    background-color: lightblue;
+}
+
+/* debug */
+.logo,
+.header-navigation,
+.actions {
+    border: 1px dashed black;
+}
+
+.logo,
+.actions {
+    width: 15%;
+}
+
+.header-navigation {
+    flex-grow: 1;
+}
+
+.header-navigation ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.header-navigation li {
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+.actions {
+    text-align: right;
+}
+
+/* Jumbotron */
+.jumbotron {
+    padding: 30px 0;
+    /* debug */
+    background-color: blue;
+}
+
+.content {
+    width: 50%;
+    margin: 0 auto;
+    /* debug */
+    height: 150px;
+    background-color: violet;
+}
+
+/* MAIN */
+main section {
+    padding: 20px 0;
+}
+
+.large-col {
+    width: 60%;
+    /* debug */
+    min-height: 150px;
+    background-color: aquamarine;
+}
+
+.small-col {
+    width: 40%;
+    /* debug */
+    min-height: 150px;
+    background-color: blueviolet;
+}
+
+/* FOOTER */
+/* debug */
+.footer-top,
+.footer-bottom {
+    background-color: darkslategrey;
+    border: 1px solid white;
+}
+
+/* Footer top */
+.footer-top {
+    padding: 10px 0 20px;
+    
+}
+
+.main-column {
+    width: 30%;
+    /* debug */
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.menu-column {
+    width: 70%;
+    /* debug */
+    height: 200px;
+    background-color: lightpink;
+}
+
+.menu {
+    width: calc(100% / 4);
+    /* debug */
+    height: 200px;
+    border: 1px solid blueviolet;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    padding: 10px 0;
+}
+
+/* debug */
+.footer-bottom .container .flex {
+    min-height: 40px;
+}
