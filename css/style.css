@@ -101,7 +101,7 @@ body {
     opacity: .04;
 }
 
-.wave-revers {
+.wave-reverse {
     transform: rotate(180deg);
 }
 
