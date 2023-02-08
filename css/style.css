@@ -125,6 +125,10 @@ body {
 /* HEADER */
 /* Header top */
 .header-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,7 +167,7 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-    padding: 80px 0;
+    padding: 140px 0;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
